@@ -4,7 +4,7 @@ using System.Collections;
 
 public class MoodManager : MonoBehaviour {
 
-	public static int mood = 1;
+	public static int mood;
 
 	// Use this for initialization
 	void Start () {
@@ -23,16 +23,7 @@ public class MoodManager : MonoBehaviour {
 			mood = 4;
 		else if (Input.GetButtonDown("Fear"))
 			mood = 5;
-
-		if (mood == 1)
-			print ("Tender");
-		else if (mood == 2)
-			print ("Sad");
-		else if (mood == 3)
-			print ("Angry");
-		else if (mood == 4)
-			print ("Excitement");
-		else if (mood == 5)
-			print ("Fear");
+		else if (Input.GetButtonDown("Default Mood"))
+			mood = 0;
 	}
 }
