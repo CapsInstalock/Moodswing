@@ -1,5 +1,6 @@
-The Narra Project (Codename)
+Moodswing
 =====
+(Formerly the Narra Project)
 
-Prototypes that we are testing out.
+A prototype that we are testing out.
 More info to come as the project continues...
