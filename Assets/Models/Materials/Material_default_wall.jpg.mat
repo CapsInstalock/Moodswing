@@ -17,7 +17,11 @@ Material:
         first:
           name: _MainTex
         second:
+<<<<<<< HEAD
           m_Texture: {fileID: 0}
+=======
+          m_Texture: {fileID: 2800000, guid: f9538b0f6e8934eb2a191d930c42bb15, type: 3}
+>>>>>>> 548fe08bb4f258548d97575300a817a455e429f9
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
