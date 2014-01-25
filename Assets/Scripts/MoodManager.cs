@@ -4,7 +4,7 @@ using System.Collections;
 
 public class MoodManager : MonoBehaviour {
 
-	public static int mood;
+	public static int mood = 1;
 
 	// Use this for initialization
 	void Start () {
