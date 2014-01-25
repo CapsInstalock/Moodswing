@@ -13,9 +13,11 @@ public class ChangingofLights : MonoBehaviour  {
 	// Update is called once per frame
 	void Update () 
 	{
-		if(MoodManager.mood == 1) { // References "mood" from MoodManager.cs
+		if (MoodManager.mood == 0) {
+			light.color = Color.white;
+		}
+		if (MoodManager.mood == 1) { // References "mood" from MoodManager.cs
 			light.color = Color.magenta;
-				
 		}
 		if (MoodManager.mood == 2) {
 			light.color = Color.blue;
