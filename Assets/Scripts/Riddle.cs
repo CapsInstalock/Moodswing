@@ -12,7 +12,6 @@ public class Riddle : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		riddleval = Random.Range (1, 5);
-		Debug.Log (riddleval);
 	}
 	
 	// Update is called once per frame
