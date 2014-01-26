@@ -14,8 +14,8 @@ public class ChangingofLights : MonoBehaviour  {
 	void Update () 
 	{
 		if (MoodManager.mood == 0) {
-			light.color = Color.white;
-		}
+				light.color = Color.white;
+			}
 		if (MoodManager.mood == 1) { // References "mood" from MoodManager.cs
 			light.color = Color.magenta;
 		}

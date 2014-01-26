@@ -22,10 +22,10 @@ public class mainmenu : MonoBehaviour
 	{
 		if(isQuit) 
 		{
-			Application.Quit (); 
+			Application.Quit(); 
 		}
 		
-		else 
+		else
 		{
 			Application.LoadLevel(1);
 		}
