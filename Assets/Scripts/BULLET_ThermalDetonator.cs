@@ -3,9 +3,8 @@ using System.Collections;
 
 public class BULLET_ThermalDetonator : MonoBehaviour {
 	
-
+	float lifespan = 3.0f;
 	public GameObject fireEffect;
-
 	private RiddleCompare riddleCompare;
 
 	void Awake () {
@@ -19,8 +18,11 @@ public class BULLET_ThermalDetonator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		lifespan -= Time.deltaTime;
 
+		if (lifespan <= 0) {
+			Explode ();
+		}
 	}
 	
 	void OnCollisionEnter(Collision collision) {
