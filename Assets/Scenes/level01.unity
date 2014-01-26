@@ -4019,7 +4019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &837392878
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7304,9 +7304,9 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 9efa582917f95491d81596ce636b3e8c, type: 2}
-  - {fileID: 2100000, guid: 598e05e5edc844a678a7698c68b778ce, type: 2}
-  - {fileID: 2100000, guid: 32403c26f4dab4c23a8a5e36ee9d8b76, type: 2}
+  - {fileID: 2100000, guid: 02e837ee9027d4ffcbeb208cd8d8d02e, type: 2}
+  - {fileID: 2100000, guid: 1ccd15f17850342a0b534e1e5a33eb02, type: 2}
+  - {fileID: 2100000, guid: 40cdd7bd40a5b43c1b5fa653163481c2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
